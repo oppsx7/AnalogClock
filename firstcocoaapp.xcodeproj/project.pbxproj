@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40679F1224A939900B214F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40679F0224A939900B214F7 /* AppDelegate.m */; };
+		D40679F3224A939A00B214F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40679F2224A939A00B214F7 /* Assets.xcassets */; };
+		D40679F6224A939A00B214F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40679F4224A939A00B214F7 /* MainMenu.xib */; };
+		D40679F9224A939A00B214F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40679F8224A939A00B214F7 /* main.m */; };
+		D4067A04224A939A00B214F7 /* firstcocoaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4067A03224A939A00B214F7 /* firstcocoaappTests.m */; };
+		D4067A0F224A939A00B214F7 /* firstcocoaappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4067A0E224A939A00B214F7 /* firstcocoaappUITests.m */; };
+		D4067A1E224A95FE00B214F7 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4067A1D224A95FE00B214F7 /* ClockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4067A00224A939A00B214F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40679E4224A939900B214F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40679EB224A939900B214F7;
+			remoteInfo = firstcocoaapp;
+		};
+		D4067A0B224A939A00B214F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40679E4224A939900B214F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40679EB224A939900B214F7;
+			remoteInfo = firstcocoaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40679EC224A939900B214F7 /* firstcocoaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstcocoaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40679EF224A939900B214F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D40679F0224A939900B214F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D40679F2224A939A00B214F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40679F5224A939A00B214F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D40679F7224A939A00B214F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40679F8224A939A00B214F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D40679FA224A939A00B214F7 /* firstcocoaapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstcocoaapp.entitlements; sourceTree = "<group>"; };
+		D40679FF224A939A00B214F7 /* firstcocoaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstcocoaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4067A03224A939A00B214F7 /* firstcocoaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstcocoaappTests.m; sourceTree = "<group>"; };
+		D4067A05224A939A00B214F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4067A0A224A939A00B214F7 /* firstcocoaappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstcocoaappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4067A0E224A939A00B214F7 /* firstcocoaappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstcocoaappUITests.m; sourceTree = "<group>"; };
+		D4067A10224A939A00B214F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4067A1C224A95FE00B214F7 /* ClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		D4067A1D224A95FE00B214F7 /* ClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40679E9224A939900B214F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40679FC224A939A00B214F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4067A07224A939A00B214F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40679E3224A939900B214F7 = {
+			isa = PBXGroup;
+			children = (
+				D40679EE224A939900B214F7 /* firstcocoaapp */,
+				D4067A02224A939A00B214F7 /* firstcocoaappTests */,
+				D4067A0D224A939A00B214F7 /* firstcocoaappUITests */,
+				D40679ED224A939900B214F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40679ED224A939900B214F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40679EC224A939900B214F7 /* firstcocoaapp.app */,
+				D40679FF224A939A00B214F7 /* firstcocoaappTests.xctest */,
+				D4067A0A224A939A00B214F7 /* firstcocoaappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40679EE224A939900B214F7 /* firstcocoaapp */ = {
+			isa = PBXGroup;
+			children = (
+				D40679EF224A939900B214F7 /* AppDelegate.h */,
+				D40679F0224A939900B214F7 /* AppDelegate.m */,
+				D40679F2224A939A00B214F7 /* Assets.xcassets */,
+				D40679F4224A939A00B214F7 /* MainMenu.xib */,
+				D40679F7224A939A00B214F7 /* Info.plist */,
+				D40679F8224A939A00B214F7 /* main.m */,
+				D40679FA224A939A00B214F7 /* firstcocoaapp.entitlements */,
+				D4067A1C224A95FE00B214F7 /* ClockView.h */,
+				D4067A1D224A95FE00B214F7 /* ClockView.m */,
+			);
+			path = firstcocoaapp;
+			sourceTree = "<group>";
+		};
+		D4067A02224A939A00B214F7 /* firstcocoaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4067A03224A939A00B214F7 /* firstcocoaappTests.m */,
+				D4067A05224A939A00B214F7 /* Info.plist */,
+			);
+			path = firstcocoaappTests;
+			sourceTree = "<group>";
+		};
+		D4067A0D224A939A00B214F7 /* firstcocoaappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4067A0E224A939A00B214F7 /* firstcocoaappUITests.m */,
+				D4067A10224A939A00B214F7 /* Info.plist */,
+			);
+			path = firstcocoaappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40679EB224A939900B214F7 /* firstcocoaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4067A13224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaapp" */;
+			buildPhases = (
+				D40679E8224A939900B214F7 /* Sources */,
+				D40679E9224A939900B214F7 /* Frameworks */,
+				D40679EA224A939900B214F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firstcocoaapp;
+			productName = firstcocoaapp;
+			productReference = D40679EC224A939900B214F7 /* firstcocoaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40679FE224A939A00B214F7 /* firstcocoaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4067A16224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaappTests" */;
+			buildPhases = (
+				D40679FB224A939A00B214F7 /* Sources */,
+				D40679FC224A939A00B214F7 /* Frameworks */,
+				D40679FD224A939A00B214F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4067A01224A939A00B214F7 /* PBXTargetDependency */,
+			);
+			name = firstcocoaappTests;
+			productName = firstcocoaappTests;
+			productReference = D40679FF224A939A00B214F7 /* firstcocoaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4067A09224A939A00B214F7 /* firstcocoaappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4067A19224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaappUITests" */;
+			buildPhases = (
+				D4067A06224A939A00B214F7 /* Sources */,
+				D4067A07224A939A00B214F7 /* Frameworks */,
+				D4067A08224A939A00B214F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4067A0C224A939A00B214F7 /* PBXTargetDependency */,
+			);
+			name = firstcocoaappUITests;
+			productName = firstcocoaappUITests;
+			productReference = D4067A0A224A939A00B214F7 /* firstcocoaappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40679E4224A939900B214F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Todor Dimitrov";
+				TargetAttributes = {
+					D40679EB224A939900B214F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D40679FE224A939A00B214F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D40679EB224A939900B214F7;
+					};
+					D4067A09224A939A00B214F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D40679EB224A939900B214F7;
+					};
+				};
+			};
+			buildConfigurationList = D40679E7224A939900B214F7 /* Build configuration list for PBXProject "firstcocoaapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40679E3224A939900B214F7;
+			productRefGroup = D40679ED224A939900B214F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40679EB224A939900B214F7 /* firstcocoaapp */,
+				D40679FE224A939A00B214F7 /* firstcocoaappTests */,
+				D4067A09224A939A00B214F7 /* firstcocoaappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40679EA224A939900B214F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40679F3224A939A00B214F7 /* Assets.xcassets in Resources */,
+				D40679F6224A939A00B214F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40679FD224A939A00B214F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4067A08224A939A00B214F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40679E8224A939900B214F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4067A1E224A95FE00B214F7 /* ClockView.m in Sources */,
+				D40679F9224A939A00B214F7 /* main.m in Sources */,
+				D40679F1224A939900B214F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40679FB224A939A00B214F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4067A04224A939A00B214F7 /* firstcocoaappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4067A06224A939A00B214F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4067A0F224A939A00B214F7 /* firstcocoaappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4067A01224A939A00B214F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40679EB224A939900B214F7 /* firstcocoaapp */;
+			targetProxy = D4067A00224A939A00B214F7 /* PBXContainerItemProxy */;
+		};
+		D4067A0C224A939A00B214F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40679EB224A939900B214F7 /* firstcocoaapp */;
+			targetProxy = D4067A0B224A939A00B214F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40679F4224A939A00B214F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40679F5224A939A00B214F7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4067A11224A939A00B214F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4067A12224A939A00B214F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4067A14224A939A00B214F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstcocoaapp/firstcocoaapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4067A15224A939A00B214F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstcocoaapp/firstcocoaapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4067A17224A939A00B214F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstcocoaapp.app/Contents/MacOS/firstcocoaapp";
+			};
+			name = Debug;
+		};
+		D4067A18224A939A00B214F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstcocoaapp.app/Contents/MacOS/firstcocoaapp";
+			};
+			name = Release;
+		};
+		D4067A1A224A939A00B214F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstcocoaapp;
+			};
+			name = Debug;
+		};
+		D4067A1B224A939A00B214F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = firstcocoaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.firstcocoaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstcocoaapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40679E7224A939900B214F7 /* Build configuration list for PBXProject "firstcocoaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4067A11224A939A00B214F7 /* Debug */,
+				D4067A12224A939A00B214F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4067A13224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4067A14224A939A00B214F7 /* Debug */,
+				D4067A15224A939A00B214F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4067A16224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4067A17224A939A00B214F7 /* Debug */,
+				D4067A18224A939A00B214F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4067A19224A939A00B214F7 /* Build configuration list for PBXNativeTarget "firstcocoaappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4067A1A224A939A00B214F7 /* Debug */,
+				D4067A1B224A939A00B214F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40679E4224A939900B214F7 /* Project object */;
+}
